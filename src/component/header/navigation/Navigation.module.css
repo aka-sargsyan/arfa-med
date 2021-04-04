@@ -1,0 +1,14 @@
+.contentHeader img{
+  max-height: 33px;
+}
+
+.site_branding{
+  height: 99px;
+  line-height: 98px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}

@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import Content from './component/content/Content';
+import Footer from './component/footer/Footer';
+import GetAppointmentCointainer from './component/getAppointment/GetAppointmentCointainer';
+import HeaderContainer from './component/header/HeaderContainer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <div className="flex flexDirection"> */}
+        <HeaderContainer />
+        <Content />
+        <Footer />
+        <GetAppointmentCointainer/>
+      {/* </div> */}
+
     </div>
   );
 }
