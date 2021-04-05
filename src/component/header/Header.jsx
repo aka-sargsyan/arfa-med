@@ -1,20 +1,8 @@
 import React from "react";
 import styleCss from "./Header.module.css";
-
-//for Bootstrap
 import { Container, Row, Col } from 'reactstrap';
-
-//for avesome icons
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faClock, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
-import { faFacebookF, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import Navigation from "./navigation/Navigation";
 
-
-let addressAndWorkDay = [
-  [faMapMarkerAlt, "234 Triumph, Los Angeles, California, US"],
-  [faClock, "Mon - Sat 8.00 - 18.00. Sunday CLOSED"]
-];
 let socialNetwork = ["fa fa-facebook", "fa fa-twitter", "fa fa-pinterest-p", "fa fa-linkedin"]
 
 const Header = (props) => {
@@ -67,8 +55,50 @@ const Header = (props) => {
               <Navigation />
             </Col>
           </Row>
-        </Container>
+        </Container>        
       </div>
+      <div className="ttm-content-wrapper">
+            <div className="container">
+                <div className="row">
+                    <div className="col-lg-12">
+                        {/* <!-- ttm-info-widget--> */}
+                        <div className="ttm-info-widget">
+                            <div className="header-widget">
+                                <div className="header-icon">
+                                    <i className="fa fa-hospital-o"></i>
+                                </div>
+                                <div className="header-content">
+                                    <h3>Number 1 Hospital</h3>
+                                    <p>In United States</p>
+                                </div>
+                            </div>
+                            <div className="header-widget">
+                                <div className="header-icon">
+                                    <i className="fa fa-user-md"></i>
+                                </div>
+                                <div className="header-content">
+                                    <h3>Personal Cabinet</h3>
+                                    <p>Qualified Staff</p>
+                                </div>
+                            </div>
+                            <div className="header-widget">
+                                <div className="header-icon">
+                                    <i className="fa fa-thumbs-o-up"></i>
+                                </div>
+                                <div className="header-content">
+                                    <h3>Get Result Online</h3>
+                                    <p>Satisfied Patients</p>
+                                </div>
+                            </div>
+                        </div>
+                        {/* <!-- ttm-info-widget end --> */}
+                        <div className="ttm-contact">
+                            <span className="icon"><i className="fa fa-phone"></i></span>Toll Free : 1 123 456 78910
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </div>
   )
