@@ -1,19 +1,15 @@
-/* .header {
-  grid-area: header;
-}
+@import "./css/animate.css";
+@import "./css/bootstrap.min.css";
+@import "./css/flaticon.css";
+@import "./css/font-awesome.css";
+@import "./css/main.css";
+@import "./css/owl.carousel.css";
+@import "./css/prettyPhoto.css";
+@import "./css/responsive.css";
+@import "./css/shortcodes.css";
+@import "./css/themify-icons.css";
+@import "./css/twentytwenty.css";
 
-.content {
-  grid-area: content;
-}
-
-.footer {
-  grid-area: footer;
-}
-
-.grid-container {
-  display: grid;
-  grid-template-areas: 'header header header header' 'content content content content' 'footer footer footer footer';
-} */
 
 .flex {
 	display: flex;

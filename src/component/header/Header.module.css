@@ -1,29 +1,29 @@
-.header{
+.header {
   background-color: #033b4a;
   color: white;
 }
 
-.header ul li{
+.header ul li {
   list-style-type: none;
   display: inline-block;
 }
 
-.header ul{
+.header ul {
   margin: 0;
   padding: 0;
 }
-.HeaderContainer{
 
+.HeaderContainer {
   font-size: 13px;
   list-style-type: none;
   height: 48px;
 }
 
-.HeaderContainer>ul{
+.HeaderContainer>ul {
   margin: 0;
 }
 
-.social:hover{
+.social:hover {
   color: #01d6a3;
 }
 

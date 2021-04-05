@@ -5,12 +5,26 @@ import Navigation from "./navigation/Navigation";
 
 let socialNetwork = ["fa fa-facebook", "fa fa-twitter", "fa fa-pinterest-p", "fa fa-linkedin"]
 
+const HeaderWidget = (props) => {
+  return (
+    <div className="header-widget">
+      <div className="header-icon">
+        <i className={`fa ${props.awesome}`}></i>
+      </div>
+      <div className="header-content">
+        <h3>{props.header}</h3>
+        <p>{props.content}</p>
+      </div>
+    </div>
+  )
+}
+
 const Header = (props) => {
   const openGetAppointment = () => {
     props.toggleGetAppointment();
   }
   return (
-    <div id="header">
+    <div id="header" className="header ttm-header-style-classicinfo">
       <div className={styleCss.header}>
         <Container className="p0">
           <Row>
@@ -55,50 +69,26 @@ const Header = (props) => {
               <Navigation />
             </Col>
           </Row>
-        </Container>        
+        </Container>
       </div>
       <div className="ttm-content-wrapper">
-            <div className="container">
-                <div className="row">
-                    <div className="col-lg-12">
-                        {/* <!-- ttm-info-widget--> */}
-                        <div className="ttm-info-widget">
-                            <div className="header-widget">
-                                <div className="header-icon">
-                                    <i className="fa fa-hospital-o"></i>
-                                </div>
-                                <div className="header-content">
-                                    <h3>Number 1 Hospital</h3>
-                                    <p>In United States</p>
-                                </div>
-                            </div>
-                            <div className="header-widget">
-                                <div className="header-icon">
-                                    <i className="fa fa-user-md"></i>
-                                </div>
-                                <div className="header-content">
-                                    <h3>Personal Cabinet</h3>
-                                    <p>Qualified Staff</p>
-                                </div>
-                            </div>
-                            <div className="header-widget">
-                                <div className="header-icon">
-                                    <i className="fa fa-thumbs-o-up"></i>
-                                </div>
-                                <div className="header-content">
-                                    <h3>Get Result Online</h3>
-                                    <p>Satisfied Patients</p>
-                                </div>
-                            </div>
-                        </div>
-                        {/* <!-- ttm-info-widget end --> */}
-                        <div className="ttm-contact">
-                            <span className="icon"><i className="fa fa-phone"></i></span>Toll Free : 1 123 456 78910
-                        </div>
-                    </div>
-                </div>
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12">
+              {/* <!-- ttm-info-widget--> */}
+              <div className="ttm-info-widget">
+                <HeaderWidget awesome="fa-hospital-o" header="Number 1 Hospital" content="In United States" />
+                <HeaderWidget awesome="fa-user-md" header="Personal Cabinet" content="Qualified Staff" />
+                <HeaderWidget awesome="fa-thumbs-o-up" header="Get Result Online" content="Satisfied Patients" />
+              </div>
+              {/* <!-- ttm-info-widget end --> */}
+              <div className="ttm-contact">
+                <span className="icon"><i className="fa fa-phone"></i></span>Toll Free : 1 123 456 78910
+              </div>
             </div>
+          </div>
         </div>
+      </div>
 
     </div>
   )
