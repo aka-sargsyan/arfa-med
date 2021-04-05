@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/arfa-med/static/css/main.85136b45.chunk.css",
-    "main.js": "/arfa-med/static/js/main.3931630c.chunk.js",
-    "main.js.map": "/arfa-med/static/js/main.3931630c.chunk.js.map",
-    "runtime-main.js": "/arfa-med/static/js/runtime-main.6cca0a5f.js",
-    "runtime-main.js.map": "/arfa-med/static/js/runtime-main.6cca0a5f.js.map",
+    "main.js": "/arfa-med/static/js/main.9a0df624.chunk.js",
+    "main.js.map": "/arfa-med/static/js/main.9a0df624.chunk.js.map",
+    "runtime-main.js": "/arfa-med/static/js/runtime-main.a3e5006f.js",
+    "runtime-main.js.map": "/arfa-med/static/js/runtime-main.a3e5006f.js.map",
     "static/css/2.542e5ec6.chunk.css": "/arfa-med/static/css/2.542e5ec6.chunk.css",
-    "static/js/2.44017660.chunk.js": "/arfa-med/static/js/2.44017660.chunk.js",
-    "static/js/2.44017660.chunk.js.map": "/arfa-med/static/js/2.44017660.chunk.js.map",
-    "static/js/3.890e1885.chunk.js": "/arfa-med/static/js/3.890e1885.chunk.js",
-    "static/js/3.890e1885.chunk.js.map": "/arfa-med/static/js/3.890e1885.chunk.js.map",
+    "static/js/2.e0b23627.chunk.js": "/arfa-med/static/js/2.e0b23627.chunk.js",
+    "static/js/2.e0b23627.chunk.js.map": "/arfa-med/static/js/2.e0b23627.chunk.js.map",
+    "static/js/3.74d2b9a2.chunk.js": "/arfa-med/static/js/3.74d2b9a2.chunk.js",
+    "static/js/3.74d2b9a2.chunk.js.map": "/arfa-med/static/js/3.74d2b9a2.chunk.js.map",
     "index.html": "/arfa-med/index.html",
     "static/css/2.542e5ec6.chunk.css.map": "/arfa-med/static/css/2.542e5ec6.chunk.css.map",
     "static/css/main.85136b45.chunk.css.map": "/arfa-med/static/css/main.85136b45.chunk.css.map",
-    "static/js/2.44017660.chunk.js.LICENSE.txt": "/arfa-med/static/js/2.44017660.chunk.js.LICENSE.txt"
+    "static/js/2.e0b23627.chunk.js.LICENSE.txt": "/arfa-med/static/js/2.e0b23627.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.6cca0a5f.js",
+    "static/js/runtime-main.a3e5006f.js",
     "static/css/2.542e5ec6.chunk.css",
-    "static/js/2.44017660.chunk.js",
+    "static/js/2.e0b23627.chunk.js",
     "static/css/main.85136b45.chunk.css",
-    "static/js/main.3931630c.chunk.js"
+    "static/js/main.9a0df624.chunk.js"
   ]
 }
