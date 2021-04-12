@@ -17,16 +17,16 @@ const Navbar = (props) => {
           <NavLink to="/about_as" activeClassName={styleCss.active}>Abut As</NavLink>
         </li>
         <li>
-          <NavLink to="/about_as" activeClassName={styleCss.active}>Services</NavLink>
+          <NavLink to="/services" activeClassName={styleCss.active}>Services</NavLink>
         </li>
         <li>
-          <NavLink to="/about_as" activeClassName={styleCss.active}>Our Doctors</NavLink>
+          <NavLink to="/our_doctor" activeClassName={styleCss.active}>Our Doctors</NavLink>
         </li>
         <li>
-          <NavLink to="/about_as" activeClassName={styleCss.active}>Devices and Accessories</NavLink>
+          <NavLink to="/devices_accessories" activeClassName={styleCss.active}>Devices and Accessories</NavLink>
         </li>
         <li>
-          <NavLink to="/about_as" activeClassName={styleCss.active} className="pr0">Blog</NavLink>
+          <NavLink to="/blog" activeClassName={styleCss.active} className="pr0">Blog</NavLink>
         </li>
       </ul>
     </div>)

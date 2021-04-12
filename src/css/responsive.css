@@ -185,14 +185,14 @@
 	    font-weight: 500;
 	    font-family: "Saira",Arial,Helvetica,sans-serif;
 	}
-	.ttm-header-style-classicinfo .ttm-contact:after {
+	/* .ttm-header-style-classicinfo .ttm-contact:after {
 	    content: "";
 	    width: 5000px;
 	    height: 100%;
 	    left: 100%;
 	    top: 0px;
 	    position: absolute;
-	}
+	} */
 
 	/* ttm-header-style-infostack */
 	.ttm-header-style-infostack .ttm-topbar-wrapper {

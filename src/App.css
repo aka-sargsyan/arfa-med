@@ -75,15 +75,6 @@
 	content: "\f0f0";
 }
 
-.fa {
-	display: inline-block;
-	font: normal normal normal 14px/1 FontAwesome;
-	font-size: inherit;
-	text-rendering: auto;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-}
-
 .inlineBlock {
 	display: inline-block;
 }
@@ -92,6 +83,6 @@
 	clear: both;
 }
 
-.red {
-	background-color: red;
+.pointer{
+	cursor: pointer;
 }

@@ -43,6 +43,6 @@
 }
 
 .active {
-  color: #01d6a3;
+  color: #01d6a3 !important;
 }
 

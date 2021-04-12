@@ -41,8 +41,14 @@ const GetAppointment = (props) => {
   }
   return (
     <>
+      {/* <span className="ttm-fbar-btn">
+        <a className="ttm-fbar-btn-link">
+          <span className="ttm-fbar-open-icon"><i className="fa fa-bars"></i></span>
+          <span className="ttm-fbar-close-icon"><i className="fa fa-times"></i></span>
+        </a>
+      </span> */}
       {props.isGetAppointment ?
-        <div className={styleCss.getAppointment}>
+        <div className={`${styleCss.getAppointment}`}>
           <div>
             <h2>GET AN APPOINTMENT!</h2>
             <div>
