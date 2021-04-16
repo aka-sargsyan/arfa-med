@@ -3,6 +3,7 @@ import styleCss from "./Header.module.css";
 import { Container, Row, Col } from 'reactstrap';
 import Navigation from "./navigation/Navigation";
 import GetAppointment from "../getAppointment/GetAppointment";
+import GetAppointmentCointainer from "../getAppointment/GetAppointmentCointainer";
 
 let socialNetwork = ["fa fa-facebook", "fa fa-twitter", "fa fa-pinterest-p", "fa fa-linkedin"]
 
@@ -31,14 +32,20 @@ const Header = (props) => {
 
       {/* <!-- ttm-fbar-main-w --> */}
       <div className="ttm-fbar-main-w ttm-fbar-position-right">
-        <div className="ttm-fbar-box-w ttm-textcolor-white ttm-bgcolor-darkgrey ttm-bg ttm-bgimage-yes">
+        <div className={`ttm-fbar-box-w ttm-textcolor-white ttm-bgcolor-darkgrey ttm-bg ttm-bgimage-yes ${props.isGetAppointment ? "animated" : ""}`}>
+
           <span className="ttm-fbar-btn">
-            <div  className="ttm-fbar-btn-link">
-              <span className="ttm-fbar-open-icon"><i className="fa fa-bars"></i></span>
-              <span className="ttm-fbar-close-icon"><i className="fa fa-times"></i></span>
+            <div className="ttm-fbar-btn-link">
+              {props.isGetAppointment
+                ?
+                <span className="" onClick={openGetAppointment}><i className="fa fa-times"></i></span>
+                :
+                <span className="ttm-fbar-open-icon" onClick={openGetAppointment}><i className="fa fa-bars"></i></span>
+              }
             </div>
           </span>
-
+          <div class="ttm-fbar-bg-layer ttm-bg-layer"></div>
+            <GetAppointmentCointainer />
         </div>
       </div>
       {/* <!-- ttm-fbar-main-w end --> */}

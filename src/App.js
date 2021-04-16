@@ -11,7 +11,6 @@ function App() {
         <HeaderContainer />
         <Content />
         <Footer />
-        <GetAppointmentCointainer/>
       {/* </div> */}
 
     </div>
