@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/arfa-med/static/css/main.8cde22d4.chunk.css",
-    "main.js": "/arfa-med/static/js/main.44e8f538.chunk.js",
-    "main.js.map": "/arfa-med/static/js/main.44e8f538.chunk.js.map",
+    "main.js": "/arfa-med/static/js/main.d6adc8cd.chunk.js",
+    "main.js.map": "/arfa-med/static/js/main.d6adc8cd.chunk.js.map",
     "runtime-main.js": "/arfa-med/static/js/runtime-main.a3e5006f.js",
     "runtime-main.js.map": "/arfa-med/static/js/runtime-main.a3e5006f.js.map",
     "static/css/2.ef9168ec.chunk.css": "/arfa-med/static/css/2.ef9168ec.chunk.css",
-    "static/js/2.e69863d2.chunk.js": "/arfa-med/static/js/2.e69863d2.chunk.js",
-    "static/js/2.e69863d2.chunk.js.map": "/arfa-med/static/js/2.e69863d2.chunk.js.map",
+    "static/js/2.d53a73d3.chunk.js": "/arfa-med/static/js/2.d53a73d3.chunk.js",
+    "static/js/2.d53a73d3.chunk.js.map": "/arfa-med/static/js/2.d53a73d3.chunk.js.map",
     "static/js/3.74d2b9a2.chunk.js": "/arfa-med/static/js/3.74d2b9a2.chunk.js",
     "static/js/3.74d2b9a2.chunk.js.map": "/arfa-med/static/js/3.74d2b9a2.chunk.js.map",
     "index.html": "/arfa-med/index.html",
     "static/css/2.ef9168ec.chunk.css.map": "/arfa-med/static/css/2.ef9168ec.chunk.css.map",
     "static/css/main.8cde22d4.chunk.css.map": "/arfa-med/static/css/main.8cde22d4.chunk.css.map",
-    "static/js/2.e69863d2.chunk.js.LICENSE.txt": "/arfa-med/static/js/2.e69863d2.chunk.js.LICENSE.txt",
+    "static/js/2.d53a73d3.chunk.js.LICENSE.txt": "/arfa-med/static/js/2.d53a73d3.chunk.js.LICENSE.txt",
     "static/media/App.css": "/arfa-med/static/media/ttm-pagetitle-bg.a20cccab.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.a3e5006f.js",
     "static/css/2.ef9168ec.chunk.css",
-    "static/js/2.e69863d2.chunk.js",
+    "static/js/2.d53a73d3.chunk.js",
     "static/css/main.8cde22d4.chunk.css",
-    "static/js/main.44e8f538.chunk.js"
+    "static/js/main.d6adc8cd.chunk.js"
   ]
 }
